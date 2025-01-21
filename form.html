@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/form.css">
+    <link rel="stylesheet" href="style/nav.css">
+
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li class="active"><a href="video.html">VIDEO</a></li>
+                <li><a href="form.html">FORM</a></li>
+                <li><a href="table.html">TABLE</a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+                <label for="name">ENTER YOUR NAME:
+                    <input type="text" id="name" placeholder="your name">
+                </label>
+                <label for="email">ENTER YOUR EMAIL:
+                    <input type="text" id="email" placeholder="your email">
+                </label>
+                <label for="phone">ENTER YOUR PHONE:
+                    <input type="text" id="phone" placeholder="your phone">
+                </label>
+                    <fieldset>
+                        if in 
+                        <legend>Pick one color</legend>
+                        <label for="red"> 
+                            <input radio type="radio" id="red" name="color" value="red">RED 
+                        </label>
+                            <label for="green">
+                                <input radio type="radio" id="green" name="color" value="green">GREEN
+                            </label>
+                            <label for="blue">
+                                <input radio type="radio" id="blue" name="color" value="blue">BLUE
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Pick a name </legend>
+                        <label for="mostafa">
+                            <input type="checkbox" id="mostafa" name="name" value="name">MOSTAFA
+                        </label>
+                        <label for="shahriar">
+                            <input type="checkbox" id="shahriar" name="name" value="name">SHAHRIAR
+                        </label>
+                        <label for="rahat">
+                            <input type="checkbox" id="raha" name="name" value="name">RAHAT
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Choose a file</legend>
+                        <input type="file" id="file">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Write in Description</legend>
+                        <label for="description"> 
+                            <textarea id="description" cols="30" rows="10" placeholder="Write here"></textarea>
+                        </label>
+                        
+                    </fieldset>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

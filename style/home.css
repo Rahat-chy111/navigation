@@ -1,0 +1,61 @@
+h1{
+    color :red;
+    background-color: rgb(85, 215, 215);
+    height:90px ;
+    width: 75%;
+}
+p{
+    color: darkmagenta;
+    font-size: 30px;
+    font-weight: 800;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 25%;
+}
+#birthday{
+font-size: 50px;
+   color: red;
+}
+#murgi{
+    font-size: 40px;
+    color: green;
+}
+.month{
+    color: #20a0a7ea;
+    font-size: 30px;
+}
+.brother{
+    color: #ee01eeea;
+    font-size: 40px;
+    font-family: monospace;
+}
+h2.brother{
+    color: #a51ca5ea;
+    font-size: 40px;
+    font-family: monospace;
+}
+.romantic{
+    color: rgb(255, 0, 217);
+    font-size: 40px;
+}
+.journey{
+    color: rgb(0, 255, 0);
+    font-size: 30px;
+}
+.tour{
+    width: 50%;
+}
+.blog {
+    border: 5px solid rgb(43, 0, 255);
+    border-radius: 50px;
+    width: 30%;
+    margin: 5px;
+    padding: 20px;
+    display : inline-block;
+}
+h1{
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    text-align: center;
+}
